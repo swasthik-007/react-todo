@@ -10,9 +10,9 @@ const [todos,setTodos]=useState([
   {id:2, text:'todo2',isFinished:false},
 ]) ; 
 
-function addTodos(todoText){
-    let nextId=todos.length +1;
-    setTodos([...todos,{id:nextId,isFinished:false,text:todoText}]);
+function addTodos(TodoText){
+    let nextId =todos.length +1;
+    setTodos([...todos,{id:nextId,isFinished:false, text:TodoText}]);
 }
   return (
     <>
